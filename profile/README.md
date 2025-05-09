@@ -30,7 +30,7 @@
 
 ### Core OSS Libraries
 
-- [`mixpeek-py`](https://github.com/mixpeek/mixpeek-py) – Python SDK to extract, embed, and retrieve from unstructured content.
+- [`mixpeek-py`](https://github.com/mixpeek/python-sdk) – Python SDK to extract, embed, and retrieve from unstructured content.
 
 ### Products
 
