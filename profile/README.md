@@ -33,6 +33,9 @@
 
 - [`mixpeek-py`](https://github.com/mixpeek/python-sdk) – Python SDK to extract, embed, and retrieve from unstructured content.
 
+### Core OSS Libraries
+- [`multimodal-tools`](https://github.com/mixpeek/multimodal-tools) - 🧰 Simple, standalone tools for working with multimodal data: video, audio, image, and text.
+
 ### Products
 
 - [`Mixpeek Cloud`](https://mixpeek.com/start) – Hosted multimodal data warehouse.
@@ -40,9 +43,7 @@
 
 ### Built with Mixpeek
 
-- [`SceneWise`](https://mixpeek.com/apps) – Search across film scenes using natural language.
-- [`AdSafety`](https://mixpeek.com/apps) – Brand safety tool for scanning video ads for risky content.
-- [`Compliance Inspector`](https://mixpeek.com/apps) – Detect and report sensitive media in regulated industries.
+- [`SceneWise`](https://mxp.co/scenewise) – Search across film scenes using natural language.
 
 ## Learn More
 
