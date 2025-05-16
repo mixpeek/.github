@@ -21,8 +21,9 @@
 <p align="center" style="display: flex; justify-content: center; gap: 5px; font-size: 15px;">
     <a href="https://mixpeek.com/docs" target="_blank">Docs</a> •
     <a href="https://mixpeek.com/recipes" target="_blank">Recipes</a> •
+    <a href="https://mixpeek.com/extractors" target="_blank">Extractors</a> •
     <a href="https://docs.mixpeek.com/overview/quickstart" target="_blank">Quickstart</a> •
-    <a href="https://mixpeek.com/contact" target="_blank">Contact</a>
+    <a href="https://mixpeek.com/community" target="_blank">Community</a>
 </p>
 
 <br>
