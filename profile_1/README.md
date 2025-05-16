@@ -33,7 +33,7 @@
 
 - [`mixpeek-py`](https://github.com/mixpeek/python-sdk) – Python SDK to extract, embed, and retrieve from unstructured content.
 
-### Core OSS Libraries
+### Helpful Links
 - [`multimodal-tools`](https://github.com/mixpeek/multimodal-tools) - 🧰 Simple, standalone tools for working with multimodal data: video, audio, image, and text.
 
 ### Products
