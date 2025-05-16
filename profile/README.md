@@ -1,6 +1,6 @@
 <h3 align="center"> 
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://mixpeek.com/brand/logo-dark.png" height="75">
+<!--     <source media="(prefers-color-scheme: dark)" srcset="https://mixpeek.com/brand/logo-dark.png" height="75"> -->
     <source media="(prefers-color-scheme: light)" srcset="https://mixpeek.com/brand/logo-light.png" height="75">
     <img alt="Mixpeek logo" src="https://raw.githubusercontent.com/mixpeek/.github/main/assets/mixpeek-logo-light.svg" height="75">
   </picture>
