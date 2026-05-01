@@ -16,7 +16,6 @@
   <a href="https://mixpeek.com/start">Get Started</a> &middot;
   <a href="https://docs.mixpeek.com/overview/quickstart">Quickstart</a> &middot;
   <a href="https://mixpeek.com/blog">Blog</a> &middot;
-  <a href="https://discord.gg/dZFqqYzB6C">Discord</a>
 </p>
 
 ---
