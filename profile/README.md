@@ -4,11 +4,11 @@
   </a>
 </p>
 
-<h3 align="center">Give your agents eyes and ears.</h3>
+<h3 align="center">Turn any data into answers.</h3>
 
 <p align="center">
-  Mixpeek breaks every video, image, and audio file into structured features<br/>
-  your agents can search, reason over, and trust.
+  The multimodal warehouse for AI. Extract, index and retrieve what's inside<br/>
+  video, images, audio and documents. Skip the infrastructure.
 </p>
 
 <p align="center">
@@ -22,11 +22,11 @@
 
 ## What is Mixpeek?
 
-Mixpeek is multimodal infrastructure for AI agents. Upload video, images, audio, and documents — Mixpeek automatically extracts features (faces, objects, transcripts, embeddings, structured metadata) and indexes them into searchable collections. Your agent queries a single endpoint and gets structured results back.
+Mixpeek makes any data searchable by AI. Upload video, images, audio and documents, and Mixpeek extracts features (faces, objects, transcripts, embeddings, structured metadata) and indexes them into searchable collections. Your app or agent queries a single endpoint and gets structured results back. Already have embeddings? Bring your own vectors and search them on object storage with MVS.
 
-**Index** &rarr; Upload files to buckets. Mixpeek runs feature extraction automatically — faces, objects, transcripts, embeddings, and structured metadata all get indexed.
+**Index** &rarr; Upload files to buckets. Mixpeek runs feature extraction automatically, indexing faces, objects, transcripts, embeddings and structured metadata.
 
-**Search** &rarr; Build retrieval pipelines. Semantic search, face search, object search, transcript search — chain them into multi-stage retrievers exposed as a single endpoint.
+**Search** &rarr; Build retrieval pipelines. Chain semantic, face, object and transcript search into multi-stage retrievers exposed as a single endpoint.
 
 **Integrate** &rarr; Wire Mixpeek into your agent as a LangChain tool, an MCP server, or a direct REST call.
 
@@ -57,6 +57,7 @@ Also available as:
 - **MCP Server**: Connect Claude, Cursor, or any MCP-compatible agent
 - **REST API**: `POST https://api.mixpeek.com/v1/retrievers/{id}/execute`
 - **CLI**: `mixpeek --version` (included in the Python SDK)
+- **Bring your own vectors**: `POST https://api.mixpeek.com/v1/namespaces/{namespace_id}/documents/upsert`
 
 ## What Gets Extracted
 
@@ -67,13 +68,14 @@ Also available as:
 | **Audio** | Transcripts (Whisper), transcript embeddings (E5-Large), multimodal audio embeddings |
 | **Documents** | Text chunks, text embeddings (E5-Large), OCR for scanned PDFs, structured extraction |
 
-Each extracted feature becomes an independently searchable document. A single video can produce hundreds of documents — one per face, one per transcript segment, one per scene.
+Each extracted feature becomes an independently searchable document. A single video can produce hundreds of documents: one per face, one per transcript segment, one per scene.
 
 ## Use Cases
 
-- **Video understanding** — Search surveillance footage by face, scene, or spoken word
-- **Content moderation** — Detect brand logos, faces, and unsafe content across media libraries
-- **Document intelligence** — Extract structured data from scanned PDFs, invoices, and forms
-- **Media asset management** — Find the exact frame across millions of hours of video
-- **E-commerce** — Visual similarity search, product matching, catalog enrichment
+- **Ad creative**: Find what makes your best ads work, by searching the hooks and patterns in your top-performing video ads
+- **Video understanding**: Search surveillance footage by face, scene, or spoken word
+- **Content moderation**: Detect brand logos, faces, and unsafe content across media libraries
+- **Document intelligence**: Extract structured data from scanned PDFs, invoices, and forms
+- **Media asset management**: Find the exact frame across millions of hours of video
+- **E-commerce**: Visual similarity search, product matching, catalog enrichment
 
